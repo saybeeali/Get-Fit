@@ -1,0 +1,28 @@
+{% extends 'base.html' %} 
+{% block content %}
+<div class="detail__img">
+    <img src="{{bodypart.img}}" alt="{{bodypart.name}}" />
+</div>
+
+<div class="detail__container">
+    <div class="buttons">
+        
+            <a href="{% url 'workout_update' bodypart.pk %}" class="button is-info">
+            <span class="icon">
+                <i class="fas fa-edit"></i>
+            </span>
+        </a>
+        <a href="/workout/{{bodypart.id}}/delete" class="button is-danger">
+            <span class="icon">
+                <i class="fas fa-trash-alt"></i>
+            </span>
+        </a>
+    </div>
+    <div class="detail__about">
+        <h1 class="title is-1">{{bodypart.name}}</h1>
+        <h4 class="title is-4">Benefits</h4>
+        <p>{{bodypart.Benefits}}</p>
+    </div>
+</div>
+
+{% endblock %}
