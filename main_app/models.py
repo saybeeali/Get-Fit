@@ -29,6 +29,16 @@ class Exercise(models.Model):
         return self.name
 
 
+class Routine(models.Model):
+    title = models.CharField(max_length=100)
+    exercises = models.ManyToManyField(Exercise)
+
+    def __str__(self):
+        return self.title
+        
+    
+
+
     
 
 
