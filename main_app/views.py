@@ -5,7 +5,7 @@ from django.views.generic.edit import CreateView
 from django.views.generic import DetailView
 from django.views.generic.edit import CreateView, UpdateView , DeleteView
 # from .models import Workout
-from .models import Bodypart
+from .models import Bodypart, Exercise, Routine
 # login
 from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm
@@ -18,6 +18,12 @@ from django.utils.decorators import method_decorator
 
 class Home(TemplateView):
     template_name = "home.html"
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["routines"] = Routine.objects.all()
+        return context
+
+
 
 class Signup(View):
     def get(self, request):
@@ -40,23 +46,6 @@ class About(TemplateView):
 
 
 
-# @method_decorator(login_required, name='dispatch')
-# class WorkoutList(TemplateView):
-#     template_name = 'workout_list.html'
-
-#     def get_context_data(self, **kwargs):
-#         context = super().get_context_data(**kwargs)
-#         # to get the query parameter we have to acccess it in the request.GET dictionary object        
-#         name = self.request.GET.get("name")
-#         # If a query exists we will filter by name 
-#         if name != None:
-#             # .filter is the sql WHERE statement and name__icontains is doing a search for any name that contains the query param
-#             context["workouts"] = Workout.objects.filter(name__icontains=name)
-#         else:
-#             context["workouts"] = Workout.objects.all()
-#         return context
-
-
 
 @method_decorator(login_required, name='dispatch')
 class BodypartList(TemplateView):
@@ -75,11 +64,6 @@ class BodypartList(TemplateView):
         return context
 
 
-
-
-
-
-
 class BodypartCreate(CreateView):
     model = Bodypart
     fields = ['name', 'img', 'Benefits']
@@ -89,6 +73,13 @@ class BodypartCreate(CreateView):
 class BodypartDetail(DetailView):
     model = Bodypart
     template_name = 'workout_detail.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["routines"] = Routine.objects.all()
+        return context
+
+
 
 class BodypartUpdate(UpdateView):
     model = Bodypart
@@ -100,3 +91,20 @@ class BodypartDelete(DeleteView):
     model = Bodypart
     template_name = 'workout_delete_confirmation.html'
     success_url = '/workouts/'
+
+
+
+class RoutineExerciseAssoc(View):
+
+    def get(self, request, pk, exercise_pk):
+        # get the query param from the url
+        assoc = request.GET.get("assoc")
+        if assoc == "remove":
+            # get the playlist by the id and
+            # remove from the join table the given song_id
+            Routine.objects.get(pk=pk).exercises.remove(exercise_pk)
+        if assoc == "add":
+            # get the playlist by the id and
+            # add to the join table the given song_id
+            Routine.objects.get(pk=pk).exercises.add(exercise_pk)
+        return redirect('home')
