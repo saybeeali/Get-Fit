@@ -5,6 +5,27 @@
 </div>
 
 <div class="detail__container">
+    <!-- inside container -->
+    <div class="detail__exercises mb-5">
+        <h3 class="title is-3">Exercises</h3>
+
+        {% for exercise in bodypart.exercise.all %}
+            <div class="Exercises">
+                <span>{{forloop.counter}}</span>
+                <span><b>{{exercise.name}}</b></span>
+                <span>{{exercise.Instructions}}</span>
+            </div>
+        {% empty %}
+            <article class="message">
+                <div class="message-header">
+                    <p>No Exercises Available</p>
+                </div>
+            </article>
+
+        {% endfor %}
+    </div>
+<!--  above about section  -->
+
     <div class="buttons">
         
             <a href="{% url 'workout_update' bodypart.pk %}" class="button is-info">

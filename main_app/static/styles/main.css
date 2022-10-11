@@ -67,7 +67,7 @@ body {
     object-position: top;
   }
   
-  .detail__name {
+ .detail__name {
     position: absolute;
     z-index: 5;
     top: 400px;
@@ -76,7 +76,25 @@ body {
   .detail__container {
     margin-top: 500px;
   }
-.card-header-title{
+    .card-header-title{
     font-size: 30px;
 
+}
+    .detail__exercises {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Exercises {
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.1fr 3fr 1fr;
+    border-radius: 5px;
+}
+
+.Exercises:hover {
+    background-color: hsla(0, 0%, 100%, 0.1);
+    cursor: pointer;
 }
