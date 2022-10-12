@@ -129,6 +129,8 @@ body {
   .cta {
     background: url(https://i.imgur.com/hQoJ6Dx.jpg), linear-gradient(52deg, #42475C 0%, #20222E 71%);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .cta {
