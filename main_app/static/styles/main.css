@@ -1,23 +1,36 @@
 body {
-    background-color: #121212;
+    background-color: #d4cece;
     color: #ffffff;
     min-height: 100vh;
   }
+
   
   h1,
   h2,
   h3 {
     color: #ffffff;
   }
+.title {
+    color: rgb(246, 243, 243);
+    font-weight: 800;
+    font-size: 4rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+  }
+  
+.subtitle {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+  }
   
   .container {
     padding: 40px;
     padding-right: 0;
+    color:#ffffff;
   }
   
-  .title {
-    color: #ffffff;
-  }
+
   
   .gallery {
     display: grid;
@@ -45,7 +58,7 @@ body {
     top: 0;
     width: 100%;
     height: 500px;
-    background-color: #ffffff;
+    background-color: #100f0f;
     overflow: hidden;
   }
   
@@ -89,8 +102,8 @@ body {
 .Exercises {
     width: 100%;
     padding: 10px;
-    display: grid;
-    grid-template-columns: 0.1fr 3fr 0.5fr 1fr;
+    
+    
     border-radius: 5px;
 }
 
@@ -98,3 +111,100 @@ body {
     background-color: hsla(0, 0%, 100%, 0.1);
     cursor: pointer;
 }
+.exercisename{
+    font-size: 25px;
+}
+.detail__exercises{
+    margin-top: 20px;
+}
+
+
+
+.va {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero,
+  .cta {
+    background: url(https://i.imgur.com/hQoJ6Dx.jpg), linear-gradient(52deg, #42475C 0%, #20222E 71%);
+    background-position: center;
+  }
+  
+  .cta {
+    height: 500px;
+    border-top: 10px solid turquoise;
+  }
+  
+  footer {
+    color: white;
+    background: rgb(14, 14, 14) !important;
+  }
+  
+  footer strong {
+    color: turquoise;
+  }
+  
+  footer a {
+    color: turquoise;
+  }
+  
+
+  
+  hr.content-divider {
+    max-width: 75px;
+    height: 5px;
+  }
+  
+  #parallax-1 {
+    background: url(https://i.imgur.com/pNzdGW3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid coral;
+  }
+  
+  #parallax-1 hr {
+    background: coral;
+  }
+  
+  #parallax-2 {
+    background: url(https://i.imgur.com/BY3JNm8.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid yellow;
+  }
+  
+  #parallax-2 hr {
+    background: yellow;
+  }
+  
+  #parallax-3 {
+    background: url(https://source.unsplash.com/featured/?city);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid hotpink;
+  }
+  
+  #parallax-3 hr {
+    background: hotpink;
+  }
+  
+  .label {
+    color: white;
+  }
+  
+  input {
+    background: transparent !important;
+    border: 1px solid turquoise !important;
+    color: white !important;
+  }
+  
+  input::placeholder {
+    color: white !important;
+  }

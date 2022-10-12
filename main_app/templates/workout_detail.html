@@ -6,13 +6,35 @@
 
 <div class="detail__container">
     <!-- inside container -->
+ 
+<!--  above about section  -->
+
+    <div class="buttons">
+        
+            <a href="{% url 'workout_update' bodypart.pk %}" class="button is-info">
+            <span class="icon">
+                <i class="fas fa-edit"></i>
+            </span>
+        </a>
+        <a href="/workout/{{bodypart.id}}/delete" class="button is-danger">
+            <span class="icon">
+                <i class="fas fa-trash-alt"></i>
+            </span>
+        </a>
+    </div>
+    <div class="detail__about">
+        <h1 class="title is-1">{{bodypart.name}}</h1>
+        <h4 class="title is-4">Benefits</h4>
+        <h3>{{bodypart.Benefits}}</h3>
+    </div>
+    
     <div class="detail__exercises mb-5">
         <h3 class="title is-3">Exercises</h3>
 
         {% for exercise in bodypart.exercise.all %}
             <div class="Exercises">
                 <span>{{forloop.counter}}</span>
-                <span><b>{{exercise.name}}</b></span>
+                <h3 class = 'exercisename'><b>{{exercise.name}}</b></h3>
                 <span>{{exercise.Instructions}}</span>
             </div>
             <span>
@@ -54,26 +76,6 @@
             </article>
 
         {% endfor %}
-    </div>
-<!--  above about section  -->
-
-    <div class="buttons">
-        
-            <a href="{% url 'workout_update' bodypart.pk %}" class="button is-info">
-            <span class="icon">
-                <i class="fas fa-edit"></i>
-            </span>
-        </a>
-        <a href="/workout/{{bodypart.id}}/delete" class="button is-danger">
-            <span class="icon">
-                <i class="fas fa-trash-alt"></i>
-            </span>
-        </a>
-    </div>
-    <div class="detail__about">
-        <h1 class="title is-1">{{bodypart.name}}</h1>
-        <h4 class="title is-4">Benefits</h4>
-        <p>{{bodypart.Benefits}}</p>
     </div>
 </div>
 
