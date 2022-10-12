@@ -127,7 +127,7 @@ body {
   
   .hero,
   .cta {
-    background: url(https://i.imgur.com/hQoJ6Dx.jpg), linear-gradient(52deg, #42475C 0%, #20222E 71%);
+    background: url(https://i.imgur.com/hQoJ6Dx.png?1), linear-gradient(52deg, #42475C 0%, #20222E 71%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,11 +164,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid coral;
+    border-top: 10px solid rgb(245, 67, 67);
   }
   
   #parallax-1 hr {
-    background: coral;
+    background: rgb(245, 67, 67);
   }
   
   #parallax-2 {
