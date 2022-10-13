@@ -21,7 +21,7 @@ class Home(TemplateView):
 
 
 
-    
+
 @method_decorator(login_required, name='dispatch')
 class RoutineList(TemplateView):
     template_name = 'routine_list.html'
@@ -45,7 +45,7 @@ class Signup(View):
         if form.is_valid():
             user = form.save()
             login(request, user)
-            return redirect("artist_list")
+            return redirect("workout_list")
         else:
             context = {"form": form}
             return render(request, "registration/signup.html", context)
