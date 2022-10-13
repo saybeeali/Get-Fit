@@ -1,5 +1,5 @@
 body {
-    background-color: #d4cece;
+    background-color: #bbc1ff;
     color: #ffffff;
     min-height: 100vh;
   }
@@ -117,8 +117,7 @@ body {
 .detail__exercises{
     margin-top: 20px;
 }
-
-
+/* home page csssss */
 
 .va {
     display: flex;
@@ -200,13 +199,57 @@ body {
   .label {
     color: white;
   }
+
+
+
+  /* log in  css */
+  .heroL.is-success {
+  background: #bbc1ff;
+}
+.heroL .nav, .heroL.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.box {
+  margin-top: 5rem;
+  border-radius: 5%;
+}
+.avatar {
   
-  input {
-    background: transparent !important;
-    border: 1px solid turquoise !important;
-    color: white !important;
-  }
-  
-  input::placeholder {
-    color: white !important;
-  }
+  padding-bottom: 20px;
+}
+.avatar img {
+  padding: 5px;
+  background: #fff;
+  border-radius: 20%;
+  -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+
+ 
+}
+input {
+  font-weight: 300;
+  background-color:#bbc1ff;
+}
+p {
+  font-weight: 700;
+}
+p.subtitle {
+  padding-top: 1rem;
+}
+
+.login-hr{
+  border-bottom: 1px solid black;
+}
+
+.has-text-black{
+  color: black;
+}
+
+.field{
+  padding-bottom: 10px;
+}
+
+.fa{
+  margin-left: 5px; 
+}

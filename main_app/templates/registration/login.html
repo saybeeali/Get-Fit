@@ -1,10 +1,34 @@
 {% extends 'base.html' %} {% block content %}
 
-<h1 class="title">Log In</h1>
+{% comment %} <h1 class="title">Log In</h1>
 <form method="post" action="{% url 'login' %}">
     {% csrf_token %} {{ form.as_p }}
     <input type="submit" class="btn" value="login" />
     <input type="hidden" name="next" value="{{ next }}" />
-</form>
+</form> {% endcomment %}
+
+
+<section class="heroL is-success is-fullheight">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="column is-4 is-offset-4">
+                <h3 class="title has-text-white">Login</h3>
+                <hr class="login-hr">
+                <p class="subtitle has-text-white">Please login to proceed.</p>
+                <div class="box">
+                     <figure class="avatar">
+                        <img src="https://i.imgur.com/xu5nOBT.jpg">
+                    </figure> 
+                    <h1 class="title">Log In</h1>
+            <form method="post" action="{% url 'login' %}">
+                    {% csrf_token %} {{ form.as_p }}
+                     <input type="submit" class="btn" value="Log in" />
+                         <input class= "input is-large" type="hidden" name="next" value="{{ next }}" />
+                            </form> 
+               
+        </div>
+    </div>
+</section>
 
 {% endblock %}
+
