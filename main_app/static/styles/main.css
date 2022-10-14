@@ -1,6 +1,6 @@
 body {
-    background-color: #bbc1ff;
-    color: #ffffff;
+    background-color: rgb(14, 14, 14) ;
+    color: #71acc2;
     min-height: 100vh;
   }
 
@@ -9,6 +9,12 @@ body {
   h2,
   h3 {
     color: #ffffff;
+  }
+  hr{
+    background-color: rgba(208, 208, 208, 0.946)
+  }
+  .navbar{
+    background-color: rgba(208, 208, 208, 0.946);
   }
 .title {
     color: rgb(246, 243, 243);

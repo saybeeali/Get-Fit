@@ -1,11 +1,6 @@
 {% extends 'base.html' %} {% block content %}
 
-{% comment %} <h1 class="title">Log In</h1>
-<form method="post" action="{% url 'login' %}">
-    {% csrf_token %} {{ form.as_p }}
-    <input type="submit" class="btn" value="login" />
-    <input type="hidden" name="next" value="{{ next }}" />
-</form> {% endcomment %}
+
 
 
 <section class="heroL is-success is-fullheight">
