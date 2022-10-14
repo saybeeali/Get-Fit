@@ -253,3 +253,8 @@ p.subtitle {
 .fa{
   margin-left: 5px; 
 }
+
+/* Routines page styling */
+.button{
+    margin: 5px;
+}
