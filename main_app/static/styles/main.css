@@ -259,6 +259,9 @@ p.subtitle {
 .button{
     margin: 5px;
 }
+.routine {
+    padding:20px;
+}
 
 /* Human body figure */
 .choose{
