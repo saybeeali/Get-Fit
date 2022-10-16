@@ -1,9 +1,23 @@
 body {
-    background-color: rgb(14, 14, 14) ;
+    background-color: rgb(22, 21, 59) ;
     color: #71acc2;
     min-height: 100vh;
   }
+.search-button{
+    height: 42.5px;
+    margin-top:-1px;
+}
+.navbar{
+    font-family: 'Audiowide', cursive;
+}
+.about-img{
+    display: block;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+ 
   
   h1,
   h2,
@@ -20,7 +34,7 @@ body {
     color: rgb(246, 243, 243);
     font-weight: 800;
     font-size: 4rem;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Racing Sans One', cursive;
     text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
   }
   
@@ -204,9 +218,7 @@ body {
 
 
   /* log in  css */
-  .heroL.is-success {
-  background: #bbc1ff;
-}
+
 .heroL .nav, .heroL.is-success .nav {
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -261,6 +273,16 @@ p.subtitle {
 }
 .routine {
     padding:20px;
+}
+.title-routine{
+    color: rgb(246, 243, 243);
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Racing Sans One', cursive;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+    
+
+
 }
 
 /* Human body figure */
