@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
   }
   .input{
-    background-color: rgba(239, 233, 233, 0.946) ;
+    background-color: rgb(243, 243, 243) ;
   }
 .search-button{
     height: 42.5px;
@@ -299,10 +299,10 @@ p.subtitle {
 
 /* Human body figure */
 .bodyparts{
-    margin-bottom: 350px;
+    margin-bottom: 300px;
 }
 .choose{
-    margin-top: 20%;
+    margin-bottom: 20px;
     text-align: center;
 }
 
