@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(22, 21, 59) ;
+    background-color: rgb(27, 26, 65) ;
     color: #71acc2;
     min-height: 100vh;
   }
@@ -11,7 +11,7 @@ body {
     font-family: 'Audiowide', cursive;
 }
 .list-box{
-    padding:10px;
+    padding:30px;
 }
 .heros{
     background-color: #ffffff;
@@ -37,7 +37,7 @@ body {
     background-color: rgba(208, 208, 208, 0.946)
   }
   .navbar{
-    background-color: rgba(208, 208, 208, 0.946);
+    background-color: rgba(239, 233, 233, 0.946);
   }
 .title {
     color: rgb(246, 243, 243);
@@ -295,6 +295,9 @@ p.subtitle {
 }
 
 /* Human body figure */
+.bodyparts{
+    margin-bottom: 350px;
+}
 .choose{
     margin-top: 20%;
     text-align: center;
@@ -317,7 +320,7 @@ p.subtitle {
 .human-body svg {
     position: absolute;
     left: 50%;
-    fill: #57c9d5;
+    fill: #d8ebee;
 }
 .human-body svg.head {
     margin-left: -28.5px;
