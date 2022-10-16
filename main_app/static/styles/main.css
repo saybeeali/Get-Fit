@@ -3,6 +3,9 @@ body {
     color: #71acc2;
     min-height: 100vh;
   }
+  .input{
+    background-color: rgba(239, 233, 233, 0.946) ;
+  }
 .search-button{
     height: 42.5px;
     margin-top:-1px;
@@ -37,7 +40,7 @@ body {
     background-color: rgba(208, 208, 208, 0.946)
   }
   .navbar{
-    background-color: rgba(239, 233, 233, 0.946);
+    background-color: rgb(243, 243, 243);
   }
 .title {
     color: rgb(246, 243, 243);
