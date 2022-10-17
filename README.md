@@ -12,12 +12,14 @@ User is introduced to the website and needs to sign up to browse different worko
 <details>
 <summary>Flow of the website</summary>
 <br>
-  flow 
+  
+Flow of the website 
+  
 ![alt text](https://i.imgur.com/rkzUusE.png)
+  
 </details>
 
-Flow of the website
-![alt text](https://i.imgur.com/rkzUusE.png)
+
 
 ERD 
 ![alt text](https://i.imgur.com/mBB5svo.jpg)
