@@ -3,6 +3,9 @@ body {
     color: #71acc2;
     min-height: 100vh;
   }
+  .about-p{
+    font-size: 23px;
+  }
   .input{
     background-color: rgb(243, 243, 243) ;
   }
@@ -41,6 +44,15 @@ body {
   }
   .navbar{
     background-color: rgb(243, 243, 243);
+  }
+  .title-about{
+    margin-bottom: 20px;
+    color: rgb(246, 243, 243);
+    font-weight: 800;
+    font-size: 4rem;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+
   }
 .title {
     color: rgb(246, 243, 243);
