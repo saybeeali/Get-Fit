@@ -10,9 +10,9 @@ User is introduced to the website and needs to sign up to browse different worko
 # Planning/Project Flow
 
 <details>
-<summary>How do I dropdown?</summary>
+<summary>Flow of the website</summary>
 <br>
-This is how you dropdown.
+![alt text](https://i.imgur.com/rkzUusE.png)
 </details>
 
 Flow of the website
