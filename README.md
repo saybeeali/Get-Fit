@@ -102,7 +102,7 @@ Home page
 * JavaScript
 
 # Credits 
-Wanyed to take this section to mention usuing a public human body html template from this user. Please check out there github!
+Wanyed to take this section to mention using a public human body html template from this user. Please check out there github!
 https://github.com/volcanioo/Human-Body-Rendering-HTML
 
 
