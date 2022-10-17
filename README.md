@@ -13,26 +13,33 @@ User is introduced to the website and needs to sign up to browse different worko
 <summary>Flow of the website</summary>
 <br>
   
-Flow of the website 
-  
 ![alt text](https://i.imgur.com/rkzUusE.png)
   
 </details>
 
-
-
-ERD 
+<details>
+<summary>ERD</summary>
+<br>
+  
 ![alt text](https://i.imgur.com/mBB5svo.jpg)
+  
+</details>
 
-Sketch/Mock up design of website
+<details>
+<summary>Sketch/Mock up design of website</summary>
+<br>
+  
 Home page
 ![alt text](https://i.imgur.com/gZtw9Ym.png)
-
-Choose your Workouts page
+  
+  Choose your Workouts page
 ![alt text](https://i.imgur.com/M8ANPQO.jpg)
-
-Workouts Routine/Planner page
+  
+  Workouts Routine/Planner page
 ![alt text](https://i.imgur.com/mIE7SCL.png)
+  
+</details>
+
 
 # Technologies used
 * PostgreSQL
