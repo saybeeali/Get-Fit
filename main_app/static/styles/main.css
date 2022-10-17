@@ -6,6 +6,10 @@ body {
   .about-p{
     font-size: 23px;
   }
+  .footer-p{
+    font-family: 'Audiowide', cursive;
+    font-size: 15px;
+  }
   .input{
     background-color: rgb(243, 243, 243) ;
   }
