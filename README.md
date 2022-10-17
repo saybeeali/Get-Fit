@@ -39,6 +39,8 @@ Home page
 ![alt text](https://i.imgur.com/mIE7SCL.png)
   
 </details>
+
+
 # Pictures of the website
 <details>
 <summary>Home page</summary>
