@@ -12,6 +12,7 @@ User is introduced to the website and needs to sign up to browse different worko
 <details>
 <summary>Flow of the website</summary>
 <br>
+  flow 
 ![alt text](https://i.imgur.com/rkzUusE.png)
 </details>
 
