@@ -39,6 +39,16 @@ Home page
 ![alt text](https://i.imgur.com/mIE7SCL.png)
   
 </details>
+# Pictures of the website
+<details>
+<summary>Home page</summary>
+<br>
+  Check out website for full home page!
+
+![alt text](https://i.imgur.com/CMeu6gi.png)
+  
+</details>
+
 
 
 # Technologies used
