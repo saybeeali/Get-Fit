@@ -51,6 +51,46 @@ Home page
   
 </details>
 
+<details>
+<summary>Log in</summary>
+<br>
+  
+
+![alt text](https://i.imgur.com/B1Y5iIb.png)
+  
+</details>
+
+
+<details>
+<summary>Choose a body part</summary>
+<br>
+  
+
+![alt text](https://i.imgur.com/ijHvFSW.png)
+  
+</details>
+
+<details>
+<summary>Workouts</summary>
+<br>
+  
+
+![alt text](https://i.imgur.com/4aMFIRj.png)
+  
+</details>
+
+<details>
+<summary>Routine</summary>
+<br>
+  
+
+![alt text](https://i.imgur.com/HYxFZQb.png)
+  
+</details>
+
+
+
+
 
 
 # Technologies used
