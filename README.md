@@ -25,6 +25,7 @@ Workouts Routine/Planner page
 ![alt text](https://i.imgur.com/mIE7SCL.png)
 
 # Technologies used
+*list
 Python
 Django 
 Bulma
